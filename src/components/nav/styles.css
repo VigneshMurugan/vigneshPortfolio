@@ -1,0 +1,29 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #212529;
+}
+
+.links, .links:visited, .links:hover {
+  float: right;
+  margin: 10px 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.links.active {
+  color: #0ff;
+  font-weight: 700
+}
+
+.logo {
+  width: 52px;
+  height: 52px;
+  left: 0;
+  position: absolute
+}
+
+.navigationLinkListItem {
+  list-style-type: none;
+}
