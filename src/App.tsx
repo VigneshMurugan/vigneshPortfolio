@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <NavBar links={["home", "about", "services", "portfolio"]} />
+        <NavBar links={["home", "about", "services", "portfolio", "testimonials", "contact"]} />
         <div id="heroBanner">
           <div id="leftHeroWrapper">
             <p>Ahoy ! I'm Vignesh Murugan</p>
