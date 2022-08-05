@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background: #212529;
+  background: #4B0082;
 }
 
 .links, .links:visited, .links:hover {
@@ -10,6 +10,7 @@
   margin: 10px 10px;
   text-decoration: none;
   color: white;
+  font-size: .60em;
 }
 
 .links.active {
