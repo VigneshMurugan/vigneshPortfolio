@@ -55,7 +55,10 @@
   }
 
   .menuList {
-    display: none;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 600ms, visibility 600ms;
+    transition: opacity 600ms, visibility 600ms;  
   }
 
   .logo {
@@ -64,7 +67,8 @@
   }
 
   #toggle-menu:checked ~ .menuList {
-    display: grid;
+    visibility: visible;
+    opacity: 1;
     background-color: #4B0082;
   }
 }
