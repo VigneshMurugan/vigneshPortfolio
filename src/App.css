@@ -38,20 +38,9 @@
 }
 
 #heroBanner {
-  margin-top: 100px;
-}
-
-#leftHeroWrapper {
-  float: left;
-  margin: auto;
-  width: 50%;
-}
-
-#rightHeroWrapper {
-  float: right;
-  width: 50%;
+  margin-top: 20px;
 }
 
 #avatarImage {
-  width: inherit;
+  width: 20%;
 }
