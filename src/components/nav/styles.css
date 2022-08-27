@@ -5,7 +5,9 @@
   background: #4B0082;
 }
 
-.links, .links:visited, .links:hover {
+.links,
+.links:visited,
+.links:hover {
   float: right;
   margin: 10px 10px;
   text-decoration: none;
@@ -27,4 +29,42 @@
 
 .navigationLinkListItem {
   list-style-type: none;
+}
+
+.menu-icon {
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+#toggle-menu {
+  display: none;
+}
+
+@media (max-width: 468px) {
+  .navbar {
+    height: 20px;
+    display: grid;
+  }
+
+  .menu-icon {
+    display: block;
+    right: 10px;
+    position: absolute;
+    top: 2px;
+  }
+
+  .menuList {
+    display: none;
+  }
+
+  .logo {
+    width: 20px;
+    height: 20px;
+  }
+
+  #toggle-menu:checked ~ .menuList {
+    display: grid;
+    background-color: #4B0082;
+  }
 }
