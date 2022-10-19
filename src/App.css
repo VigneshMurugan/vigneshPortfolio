@@ -15,6 +15,7 @@
 .developerImage {
   float: right;
   width: 50%;
+  height: 600px;
 }
 
 .aboutMe {
@@ -28,6 +29,10 @@
   .aboutMe {
     -ms-transform: none;
     transform: none;
+  }
+
+  .developerImage img{
+    height: 200px;
   }
 }
 
