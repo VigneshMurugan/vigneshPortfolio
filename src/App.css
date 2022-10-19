@@ -7,21 +7,34 @@
   pointer-events: none;
 }
 
+.home {
+  top: 10vh;
+  position: relative;
+}
+
+.developerImage {
+  float: right;
+  width: 50%;
+}
+
+.aboutMe {
+  float: left;
+  width: 50%;
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutMe {
+    -ms-transform: none;
+    transform: none;
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 @keyframes App-logo-spin {
